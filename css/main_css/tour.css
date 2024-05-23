@@ -1,0 +1,49 @@
+.tour {
+  margin-top: 80px;
+}
+.tour h1 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+}
+.tour_items {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  line-height: 28px;
+}
+.tour_item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tour_item__data {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tour_item h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}
+.tour_item p {
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}
+.tour_item img {
+  object-fit: cover;
+  width: 100%;
+  height: 245px;
+}
+.tour button {
+  width: 210px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 12px;
+}
